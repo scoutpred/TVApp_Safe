@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="20dp"
+    android:layout_margin="5dp">
+
+
+    <LinearLayout
+        android:id="@+id/vBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F8FA"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/rec_img"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:paddingLeft="3.5dp"
+            android:background="@drawable/vlogo"
+            android:src="@drawable/voucher_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#DDFBFA"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            >
+
+            <TextView
+                android:id="@+id/rec_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:ellipsize="none"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:freezesText="true"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text="Voucher Name"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/rec_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:ellipsize="none"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:freezesText="true"
+                android:maxLines="1"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text="description"
+                android:textColor="#504E4E" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="Use before:"
+                    android:textColor="@color/black"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:id="@+id/rec_expires"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="expiry date"
+                    android:textColor="@color/primary" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "PROJNUM",
+    "firebase_url": "URL",
+    "project_id": "PROJID",
+    "storage_bucket": "STORAGEBUCKET"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "MOBILESDKID",
+        "android_client_info": {
+          "package_name": "com.example.bottomnavigationview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "CLIENTID",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "CLIENTID",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "MOBILESDKID",
+        "android_client_info": {
+          "package_name": "com.example.mlapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "CLIENTID",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "CLIENTID",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
